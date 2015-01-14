@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>Rock, Paper, Scissors</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/custom.css"> 
+
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Rock - Paper - Scissors</h1>
+			</header> 	
+
+			<div id="score">
+				
+				<h2>Scoreboard</h2>
+				<div class="score-box">
+					<h3>You</h3>
+					<span id="your-score">0</span>
+				</div>
+				
+				<div class="score-box">
+					<h3>Computer</h3>
+					<span id="bot-score">0</span>
+				</div>
+			
+			</div>	
+
+			<div id="results-box" class="hidden">
+					<span>You Picked:  </span><span id="your-choice"></span></br>
+					<span>Computer Picked:  </span><span id="bot-choice"></span></br>
+					<span id="results"></span></br>
+			</div>
+
+			<div id="buttons">
+				
+				<div class="buttons">
+					<img src="img/rock.jpg">
+					<button id="rock" class="active">Rock</button>
+				</div>
+				
+				<div class="buttons">
+					<img src="img/paper.jpg">
+					<button id="paper" class="active">Paper</button>
+				</div>
+				
+				<div class="buttons">
+					<img src="img/scissors.jpg">	
+					<button id="scissors" class="active">Scissors</button>
+				</div>
+
+			</div>
+				
+			<div id="rules">
+				<h2>Rules</h2>
+				<p>Choose your item, and see if you can beat the computer at this game of chance!</br>
+				 Rules: Rock beats Scissors. Scissors beat Paper. Paper beats Rock.</br>
+				 If both players choose the same item, the game is a tie and they play again.</p>
+			</div>
+
+			<button id="play-again" class="hidden">Play Again</button>
+
+			<footer>
+			</footer>
+		</div><!-- #container --> 
+
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+	</body>
+</html>
