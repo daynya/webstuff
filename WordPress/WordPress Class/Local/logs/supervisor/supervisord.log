@@ -1,0 +1,30 @@
+2018-11-25 22:27:14,632 CRIT Supervisor running as root (no user in config file)
+2018-11-25 22:27:14,633 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2018-11-25 22:27:14,701 INFO RPC interface 'supervisor' initialized
+2018-11-25 22:27:14,702 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-11-25 22:27:14,703 INFO supervisord started with pid 1
+2018-11-25 22:27:15,710 INFO spawned: 'varnishd' with pid 15
+2018-11-25 22:27:15,722 INFO spawned: 'php-fpm' with pid 16
+2018-11-25 22:27:15,745 INFO spawned: 'varnish-plugins-watcher' with pid 17
+2018-11-25 22:27:15,770 INFO spawned: 'nginx' with pid 18
+2018-11-25 22:27:15,827 INFO spawned: 'MailHog' with pid 19
+2018-11-25 22:27:15,851 INFO spawned: 'mysql' with pid 20
+2018-11-25 22:27:15,961 INFO spawned: 'varnish-themes-watcher' with pid 21
+2018-11-25 22:27:16,830 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:27:16,831 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:27:16,832 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:27:16,833 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:27:16,833 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:27:16,834 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:27:17,860 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-25 22:35:41,953 WARN received SIGTERM indicating exit request
+2018-11-25 22:35:41,955 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2018-11-25 22:35:42,224 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2018-11-25 22:35:42,225 INFO reaped unknown pid 810
+2018-11-25 22:35:42,345 INFO stopped: mysql (exit status 0)
+2018-11-25 22:35:42,348 INFO stopped: MailHog (terminated by SIGTERM)
+2018-11-25 22:35:42,357 INFO stopped: nginx (exit status 0)
+2018-11-25 22:35:43,361 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2018-11-25 22:35:43,407 INFO stopped: php-fpm (exit status 0)
+2018-11-25 22:35:43,697 INFO reaped unknown pid 30
+2018-11-25 22:35:44,741 INFO stopped: varnishd (exit status 0)

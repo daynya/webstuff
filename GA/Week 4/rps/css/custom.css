@@ -1,0 +1,212 @@
+body {
+	background-color: gray;
+	margin: 30px auto;
+}
+
+#container {
+	color: white;
+}
+
+h1 {
+	color: #D3ECED;
+	text-align: center;
+	font: bold 30px 'Lato', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: .3em;
+}
+
+
+p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+span {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 25px;
+}
+
+h2, h3 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+#score {
+	margin-bottom: 20px;
+	background-color: white;
+	color: gray;
+	border: solid 3px black;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+	text-align: center;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#score h2 {
+	font-weight: bold;
+}
+
+.score-box {
+	float: left;
+	margin: 0 5%;
+	width: 40%;
+}
+
+#your-score, #bot-score {
+	font: bold 70px 'Shadows Into Light', cursive;
+	line-height: .7em;
+	color: gray;
+}
+
+#buttons {
+	clear: both;
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+}
+
+img {
+	max-width: 100px;
+	max-height: 80px;
+}
+
+.buttons {
+	float: left;
+	width: 15%;
+	background-color: white;
+	border: solid 3px black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 11px;
+	text-align: center;
+}
+
+#rock, #paper, #scissors {
+	clear: both;
+	background-color: gray;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font: bold 15px 'Lato', sans-serif;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#results-box {
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#rules {
+	margin-top: 20px;
+}
+
+#your-choice, #bot-choice, #results {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	line-height: 1.5em;	
+}
+
+
+#play-again {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	border: solid 3px black;
+	font: bold 15px 'Lato', sans-serif;
+	text-transform: uppercase;
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h4 {
+	font: normal 14px 'Lato', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+
+#rock.active:hover, #paper.active:hover, #scissors.active:hover {
+	background-color: #D3ECED;
+	color: gray;
+	box-shadow: 0px 0px 8px 0px #111;
+}
+
+#play-again.visible:hover {
+	background-color: #FF893B;
+	color: white;
+	border: solid 3px white;
+	box-shadow: 0px 0px 8px 0px white;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#play-again.hidden, #rules.hidden, #results-box.hidden {
+	display: none;
+}
+
+#play-again.visible {
+	display: block;
+}
+
+/*
+
+#rock:hover, #paper:hover, #scissors:hover {
+	background-color: #D3ECED;
+	color: gray;
+	box-shadow: 0px 0px 8px 0px #111;
+}
+
+#play-again:hover {
+	background-color: #FF893B;
+	color: white;
+	border: solid 3px white;
+	box-shadow: 0px 0px 8px 0px white;
+}
+
+footer img {
+	max-width: 100px;
+	border: solid 3px white;
+	float: left;
+	margin-right: 15px;
+}
+
+footer {
+	clear:both;
+	border-top: solid 1px white;
+	padding-top: 15px;
+}
+
+#about {
+	font: normal 12px 'Lato', sans-serif;
+	text-align: left;
+}
+*/

@@ -1,0 +1,2 @@
+127.0.0.1 - - [25/Nov/2018:22:28:18 +0000] "GET /2018/11/25/hello-world/ HTTP/1.0" 200 57436 "http://wordpress2.dev/2018/11/25/hello-world/" "WordPress/4.9.8; http://wordpress2.dev"
+127.0.0.1 - - [25/Nov/2018:22:28:22 +0000] "POST /wp-cron.php?doing_wp_cron=1543184901.1573410034179687500000 HTTP/1.0" 499 0 "http://wordpress2.dev/wp-cron.php?doing_wp_cron=1543184901.1573410034179687500000" "WordPress/4.9.8; http://wordpress2.dev"

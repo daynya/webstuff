@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>To Do List</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		
+		<link rel="stylesheet" href="css/custom.css"> 		
+		<script src="http://code.jquery.com/jquery-latest.min.js">
+		</script>
+		
+	</head>
+	<body>
+		<div id="container">
+			<header>
+			 	<form action="index.html" method="post" enctype="multipart/form-data" id="form">
+				<label for="item">
+ 				<input type="text" name="item" id="to-do-item"/>
+ 				<input type="submit" name="submit" value="Add to List" id="add"/>
+ 				</label>
+				</form>	
+			</header>
+			<ul id="list">
+			</ul>
+			<footer>
+				<p>You have <span id="tally">0</span> to-dos left.</p>
+				<button id="clear-list">Clear List</button>
+				<button id="clear-completed">Clear Completed</button>
+			</footer>
+		</div><!-- #container --> 
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

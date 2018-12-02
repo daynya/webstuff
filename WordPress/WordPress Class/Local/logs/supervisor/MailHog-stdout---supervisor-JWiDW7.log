@@ -1,0 +1,83 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "0g0EzWoAahY8--I9Z20l_x6kv93jGsoL-U_kexrJZwI=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "nobody",
+    "Domain": "f5e0b4a97bb1",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 25 Nov 2018 22:28:19 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@wordpress2.dev\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c49392d2a35e997bdc867732ab87b2ba1@wordpress2.dev\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id 0g0EzWoAahY8--I9Z20l_x6kv93jGsoL-U_kexrJZwI=@mailhog.example; Sun, 25 Nov 2018 22:28:19 +0000"
+      ],
+      "Return-Path": [
+        "\u003cnobody@f5e0b4a97bb1\u003e"
+      ],
+      "Subject": [
+        "New WordPress Site"
+      ],
+      "To": [
+        "daynya@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "0:class-phpmailer.php"
+      ]
+    },
+    "Body": "Your new WordPress site has been successfully set up at:\r\n\r\nhttp://wordpress2.dev\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: Daynya\r\nPassword: The password you chose during installation.\r\nLog in here: http://wordpress2.dev/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Size": 755,
+    "MIME": null
+  },
+  "Created": "2018-11-25T22:28:19.067985446Z",
+  "MIME": null,
+  "Raw": {
+    "From": "nobody@f5e0b4a97bb1",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: daynya@gmail.com\r\nSubject: New WordPress Site\r\nX-PHP-Originating-Script: 0:class-phpmailer.php\r\nDate: Sun, 25 Nov 2018 22:28:19 +0000\r\nFrom: WordPress \u003cwordpress@wordpress2.dev\u003e\r\nMessage-ID: \u003c49392d2a35e997bdc867732ab87b2ba1@wordpress2.dev\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nYour new WordPress site has been successfully set up at:\r\n\r\nhttp://wordpress2.dev\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: Daynya\r\nPassword: The password you chose during installation.\r\nLog in here: http://wordpress2.dev/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events

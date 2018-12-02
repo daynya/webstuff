@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+	<head>
+		<title>Blaze Test</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/blazecss/latest/blaze.min.css">
+	</head>
+
+	<body>
+		<div class="o-container o-container--small">
+			<h1 class="c-heading c-heading--super">Containers</h1>
+			<p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="o-contatiner o-container--xlarge">
+			<h1 class="c-heading c-heading--xlarge">Containers</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h1 class="c-text--highlight">Grids</h1>
+		<div class="o-grid o-grid">
+			<div class="o-grid__cell">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+			<div class="o-grid__cell--width-20">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+			<div class="o-grid__cell--width-20 o-grid__cell--offset-50">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+		<div class="o-grid o-grid--wrap">
+			<div class="o-grid__cell--width-50">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+			<div class="o-grid__cell--width-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+		<h1 class="c-text--loud">Nesting</h1>
+		<div class="o-grid">
+			<div class="o-grid__cell">
+				<div class="o-grid">
+					<div class="o-grid__cell">first</div>
+					<div class="o-grid__cell">second</div>
+				</div>
+				<div class="o-grid"> 	
+				 	<div class="o-grid__cell">third</div>
+				 	<div class="o-grid__cell">fourth</div>
+				</div>
+			</div>
+			<div class="o-grid__cell">fifth</div>
+		</div>
+		<h1 class="c-text--quiet">Alignment</h1>
+		<div class="o-grid o-grid--center">
+			<div class="o-grid__cell o-grid__cell--top">first</div>
+			<div class="o-grid__cell">second</div>
+			<div class="o-grid__cell o-grid__cell--bottom">third</div>
+			<div class="o-grid__cell">
+				fourth
+				<br>fourth
+				<br>fourth
+				<br>fourth
+				<br>fourth
+				<br>
+			</div>
+		</div>
+		<h1>Responsiveness</h1>
+		<div class="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full">
+			<div class="o-grid__cell">first</div>
+			<div class="o-grid__cell">second</div>
+			<div class="o-grid__cell">third</div>
+		</div>
+		<div class="o-grid o-grid--wrap o-grid--demo">
+			<div class="o-grid__cell o-grid__cell--width-100 o-grid__cell--width-33@small">first</div>
+			<div class="o-grid__cell o-grid__cell--width-100 o-grid__cell--width-33@medium">second</div>
+			<div class="o-grid__cell o-grid__cell--width-100 o-grid__cell--width-33@large">third</div>
+		</div>
+		<h1>Gutters</h1>
+		<div class="o-grid o-grid--no-gutter">
+			<div class="o-grid__cell">first</div>
+			<div class="o-grid__cell">second</div>
+			<div class="o-grid__cell">third</div>
+		</div>
+		<div class="o-grid">
+			<div class="o-grid__cell">first</div>
+			<div class="o-grid__cell">second</div>
+			<div class="o-grid__cell o-grid__cell--no-gutter">third</div>
+		</div>
+		<h1>Fixed Widths</h1>
+		<div class="o-grid">
+			<div class="o-grid__cell">first</div>
+			<div class="o-grid__cell o-grid__cell--width-fixed">second</div>
+			<div class="o-grid__cell">third</div>
+		</div>
+	</body>
+</HTML>

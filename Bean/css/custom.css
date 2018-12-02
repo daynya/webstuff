@@ -1,0 +1,179 @@
+body, html{
+	height: 100%;
+	color: #666;
+}
+
+.logo {
+	max-height: 200px;
+	margin: auto;
+	display: block;
+}
+
+.rounded, .btn {
+	display: block;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
+
+h2, h4 {
+	color: #7E1617;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+.icon {
+	color: #EF4B28;
+	display: block;
+	margin: auto;
+	font-size: 350%;
+	text-align: center;
+}
+
+
+
+.jumbotron {
+	background-image: url(../img/buffalobowl.png);
+	background-size: cover;
+	height: 50vh;
+}
+
+
+.food {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.food img {
+    opacity: .7;
+    width: 100%;
+    height: auto;
+    transform: scale(2);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.food img:hover {
+    opacity: 1;
+    transform: scale(1.75);
+}
+
+.main-content {
+	margin-bottom: 20px;
+}
+
+/*
+.navbar {
+	background-color: #EF4B28;
+}
+
+.nav-link, 
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.nav-link {
+	margin-right: 1em;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+	color: #7E1617;
+	text-decoration: none;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-toggler {
+	background: #fff;
+}
+.bean-nav {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .8em;
+	color: #7E1617;
+}
+
+.bean-nav-box {
+	margin-top: 200px;
+}
+
+.bean-nav:hover {
+	color: #EF4B28;
+	text-decoration: none;
+}
+*/
+
+.bean-3-col {
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.bean-readmore {
+	color: #EF4B28;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bean-readmore:hover {
+	color: #7E1617;
+	text-decoration: none;
+}
+
+.menu-item {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #EF4B28;
+}
+
+.menu-pic {
+	margin-top: 50px;
+}
+
+.bean-column {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#marquee-photo {
+	display: block;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+footer {
+	clear: both;
+	margin-top: 50px;
+}
+
+h5 {
+	clear: both;
+	text-align: center;
+}
+
+#map-canvas {
+	width: 500px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+

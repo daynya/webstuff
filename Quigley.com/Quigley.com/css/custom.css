@@ -1,0 +1,158 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+html, 
+body {
+	color: #666;
+	font-family: 'Open Sans Light', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+    text-rendering: optimizeLegibility;
+	letter-spacing: 1px;
+	background: linear-gradient(rgb(20, 20, 20), rgb(205, 205, 205));
+	height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+	'greeting greeting greeting greeting greeting greeting'
+	'feed feed feed feed feed feed'
+    'footer footer footer footer footer footer'
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 4px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* HEADER */
+
+.header {
+	grid-area: header;
+	background-image: linear-gradient(#000, rgba(0, 0, 0, 0.705)), url(img/console.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+	height: 100px;
+	width: auto;
+	margin: 40px 40px 10px 40px;
+}
+
+
+/* BODY */
+
+.greeting {
+	grid-area: greeting;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.greeting h1 a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.greeting h1 a:hover {
+	color: #666;
+}
+
+.feed {
+	grid-area: feed;
+}
+
+.footer {
+	grid-area: footer;
+
+}
+
+
+/* NAV */
+
+
+/*Large Screen*/
+.navigation {
+	list-style: none;
+	display: flex;
+	margin-right: 20px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+.navigation a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: white;
+	transition: 0.3s;
+}
+
+.navigation a:hover {
+	color: grey;
+}
+
+/*Medium Screen*/
+@media all and (max-width: 800px) {
+	.navigation {
+		justify-content: space-around;
+	}
+
+	.logo {
+		display: block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Small Screen*/
+@media all and (max-width: 600px) {
+	.navigation {
+		-webkit-flex-flow: column wrap;
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.navigation a {
+		text-align: center;
+		padding: 10px;
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		border-bottom: 3px solid rgba(0,0,0,0.1);
+	}
+
+	.navigation li:last-of-type a {
+		border-bottom: none;
+	}
+}
+

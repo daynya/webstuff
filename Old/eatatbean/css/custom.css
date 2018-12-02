@@ -1,0 +1,103 @@
+#logo {
+	max-height: 300px;
+	margin: auto;
+	display: block;
+}
+
+.img-circle, .btn {
+	display: block;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
+
+h2, h3, h4 {
+	color: #7E1617;
+	font-family: 'Rochester', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+#bean-strong {
+	color: #EF4B28;
+	font-family: helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+.bean-nav {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .8em;
+	color: #7E1617;
+}
+
+.bean-nav-box {
+	margin-top: 200px;
+}
+
+.bean-nav:hover {
+	color: #EF4B28;
+	text-decoration: none;
+}
+
+.bean-3-col {
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.bean-readmore {
+	color: #EF4B28;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bean-readmore:hover {
+	color: #7E1617;
+	text-decoration: none;
+}
+
+.menu-item {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #EF4B28;
+}
+
+.menu-pic {
+	margin-top: 50px;
+}
+
+.bean-column {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#marquee-photo {
+	display: block;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+footer {
+	clear: both;
+	margin-top: 50px;
+}
+
+h5 {
+	clear: both;
+	text-align: center;
+}
+
+#map-canvas {
+	width: 500px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
